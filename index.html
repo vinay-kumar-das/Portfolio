@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Vinay Kumar Das — Aspiring Software Developer. Portfolio, projects, and contact.">
+  <title>Vinay Kumar Das — Aspiring Software Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,300..700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-loader" id="page-loader" aria-hidden="true">
+    <div class="page-loader-inner">
+      <div class="page-loader-spinner"></div>
+      <span class="page-loader-text">VKD</span>
+    </div>
+  </div>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="header header--glass" id="top">
+    <nav class="nav container" aria-label="Primary">
+      <a href="#home" class="logo">VKD</a>
+      <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section" id="home" aria-labelledby="hero-heading">
+      <div class="hero-bg" aria-hidden="true">
+        <div class="hero-gradient-mesh"></div>
+        <div class="hero-glow hero-glow--a"></div>
+        <div class="hero-glow hero-glow--b"></div>
+        <div class="hero-glow hero-glow--c"></div>
+        <div class="hero-grid" aria-hidden="true"></div>
+      </div>
+      <div class="container hero-inner">
+        <p class="hero-eyebrow hero-animate">Hello, I'm</p>
+        <h1 id="hero-heading" class="hero-title hero-animate">
+          <span class="hero-name">Vinay Kumar Das</span>
+        </h1>
+        <p class="hero-role hero-animate">Aspiring Software Developer</p>
+        <p class="hero-desc hero-animate">I craft responsive interfaces with HTML, CSS, and JavaScript, and use Python for scripting and small tools. I'm early in my career, hungry to learn, and excited about internships and freelance work where I can ship quality work alongside a team.</p>
+        <div class="hero-actions hero-animate">
+          <a href="#projects" class="btn btn-hero btn-hero--primary">
+            <span>View Projects</span>
+          </a>
+          <!-- Add your PDF as resume.pdf in the site root (same folder as index.html) -->
+          <a href="resume.pdf" class="btn btn-hero btn-hero--glass" download="Vinay-Kumar-Das-Resume.pdf">
+            <span>Download Resume</span>
+          </a>
+        </div>
+      </div>
+      <a href="#about" class="scroll-hint" aria-label="Scroll to about">
+        <span class="scroll-hint-line"></span>
+      </a>
+    </section>
+
+    <section class="section about" id="about" aria-labelledby="about-heading">
+      <div class="container">
+        <header class="section-header reveal" data-reveal>
+          <span class="section-label">About</span>
+          <h2 id="about-heading" class="section-title">About me</h2>
+        </header>
+        <div class="about-grid">
+          <div class="about-text reveal" data-reveal>
+            <p>I'm <strong>Vinay Kumar Das</strong> — an aspiring software developer who cares about <strong>clarity</strong>, <strong>structure</strong>, and <strong>continuous improvement</strong>. I enjoy the craft of front-end development: semantic HTML, maintainable CSS, and JavaScript that makes interfaces feel responsive and intentional.</p>
+            <p><strong>Python</strong> is where I strengthen problem-solving — scripts, small utilities, and exercises that keep my fundamentals sharp. I learn in public through projects, documentation, and iteration.</p>
+            <h3 class="about-subheading">What I'm looking for</h3>
+            <p>I'm targeting <strong>internships</strong> and <strong>select freelance</strong> roles where I can contribute real commits, receive mentorship, and grow the habits of a professional developer.</p>
+          </div>
+          <div class="about-side reveal" data-reveal>
+            <div class="about-skills-card glass-panel">
+              <h3 class="about-skills-title">Frontend</h3>
+              <ul class="skill-tags">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript <span class="skill-note">beginner</span></li>
+              </ul>
+            </div>
+            <div class="about-skills-card glass-panel">
+              <h3 class="about-skills-title">Languages &amp; tools</h3>
+              <ul class="skill-tags">
+                <li>Python</li>
+                <li>Git</li>
+                <li>Responsive UI</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects" aria-labelledby="projects-heading">
+      <div class="container">
+        <header class="section-header reveal" data-reveal>
+          <span class="section-label">Projects</span>
+          <h2 id="projects-heading" class="section-title">Featured work</h2>
+        </header>
+        <ul class="project-list">
+          <li class="project-card reveal" data-reveal>
+            <article class="project-inner glass-panel project-panel">
+              <div class="project-visual" aria-hidden="true">
+                <div class="project-chrome"><span></span><span></span><span></span></div>
+              </div>
+              <div class="project-body">
+                <h3 class="project-title">Portfolio Website</h3>
+                <p class="project-desc">A polished single-page portfolio featuring glass-style UI, scroll reveals, and a fully responsive layout — built with vanilla HTML, CSS, and JavaScript (no frameworks).</p>
+                <ul class="project-stack" aria-label="Technologies">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                </ul>
+                <div class="project-actions">
+                  <a href="./" class="btn-project btn-project--demo">Live Demo</a>
+                  <a href="https://github.com/vinaykumardas/portfolio" class="btn-project btn-project--gh" rel="noopener noreferrer" target="_blank">GitHub</a>
+                </div>
+              </div>
+            </article>
+          </li>
+          <li class="project-card reveal" data-reveal>
+            <article class="project-inner glass-panel project-panel">
+              <div class="project-visual project-visual--alt" aria-hidden="true">
+                <div class="project-chrome"><span></span><span></span><span></span></div>
+              </div>
+              <div class="project-body">
+                <h3 class="project-title">Python Calculator</h3>
+                <p class="project-desc">A focused CLI-style calculator demonstrating input validation, control flow, and clean Python structure — ideal for showcasing logical thinking to recruiters.</p>
+                <ul class="project-stack" aria-label="Technologies">
+                  <li>Python</li>
+                  <li>CLI</li>
+                </ul>
+                <div class="project-actions">
+                  <a href="https://vinaykumardas.github.io/python-calculator" class="btn-project btn-project--demo" rel="noopener noreferrer" target="_blank">Live Demo</a>
+                  <a href="https://github.com/vinaykumardas/python-calculator" class="btn-project btn-project--gh" rel="noopener noreferrer" target="_blank">GitHub</a>
+                </div>
+              </div>
+            </article>
+          </li>
+          <li class="project-card reveal" data-reveal>
+            <article class="project-inner glass-panel project-panel">
+              <div class="project-visual project-visual--third" aria-hidden="true">
+                <div class="project-chrome"><span></span><span></span><span></span></div>
+              </div>
+              <div class="project-body">
+                <h3 class="project-title">To-Do App</h3>
+                <p class="project-desc">A minimal task manager for practicing DOM manipulation, event handling, and state in the browser — written to stay readable as the feature set grows.</p>
+                <ul class="project-stack" aria-label="Technologies">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                </ul>
+                <div class="project-actions">
+                  <a href="https://vinaykumardas.github.io/todo-app" class="btn-project btn-project--demo" rel="noopener noreferrer" target="_blank">Live Demo</a>
+                  <a href="https://github.com/vinaykumardas/todo-app" class="btn-project btn-project--gh" rel="noopener noreferrer" target="_blank">GitHub</a>
+                </div>
+              </div>
+            </article>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact" aria-labelledby="contact-heading">
+      <div class="container contact-inner">
+        <header class="section-header reveal" data-reveal>
+          <span class="section-label">Contact</span>
+          <h2 id="contact-heading" class="section-title">Let's work together</h2>
+          <p class="contact-lead reveal" data-reveal>Whether you're hiring for an internship, need a small freelance build, or want to connect — I'd love to hear from you. I usually reply within a few business days.</p>
+          <div class="contact-links reveal" data-reveal>
+            <a class="contact-chip" href="mailto:thevinaykumardas@gmail.com">thevinaykumardas@gmail.com</a>
+            <a class="contact-chip" href="https://github.com/vinaykumardas" rel="noopener noreferrer" target="_blank">GitHub profile</a>
+          </div>
+        </header>
+        <form class="contact-form glass-panel reveal" data-reveal action="#" method="post" id="contact-form">
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required autocomplete="name" placeholder="Your name">
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required autocomplete="email" placeholder="you@company.com">
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Role, timeline, or project details…"></textarea>
+          </div>
+          <button type="submit" class="btn btn-submit btn-full">Send message</button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite" hidden></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer footer--minimal">
+    <div class="container footer-inner">
+      <p class="footer-name">Vinay Kumar Das</p>
+      <p class="footer-copy">&copy; <span id="year"></span> · Built with HTML, CSS &amp; JavaScript</p>
+      <ul class="footer-social">
+        <li><a href="https://github.com/vinaykumardas" rel="noopener noreferrer" target="_blank">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/vinaykumardas" rel="noopener noreferrer" target="_blank">LinkedIn</a></li>
+        <li><a href="mailto:thevinaykumardas@gmail.com">Email</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <button type="button" class="scroll-top" id="scroll-top" aria-label="Back to top" hidden>
+    <svg class="scroll-top-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+      <path d="M18 15l-6-6-6 6"/>
+    </svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
