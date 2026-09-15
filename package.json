@@ -1,0 +1,7 @@
+{
+  "name": "vinay-kumar-das-portfolio",
+  "private": true,
+  "scripts": {
+    "test": "node --test"
+  }
+}
